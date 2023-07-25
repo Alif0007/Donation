@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+
+    background-image: url(images/new.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    block-size: 500px;
+    background-size: 1550px 700px;
+    padding-top: 220px;
+}
+
+.header p {
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 70px;
+    color: white;
+
+}
+
+.btn {
+    padding: 10px 40px;
+    border-radius: 9px;
+    background-color: goldenrod;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.second-part {
+    text-align: center;
+}
+
+.second-part h1 {
+    font-size: 40px;
+}
+
+.second-part p {
+    margin-left: 30%;
+    margin-right: 30%;
+}
