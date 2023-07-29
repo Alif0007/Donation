@@ -32,11 +32,12 @@ body {
     border-radius: 9px;
     background-color: goldenrod;
     margin-top: 25px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .second-part {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .second-part h1 {
@@ -46,9 +47,10 @@ body {
 .second-part p {
     margin-left: 30%;
     margin-right: 30%;
+
 }
 
-.donation-amount {}
+
 
 .donation-amount h1 {
     display: inline-block;
@@ -59,11 +61,83 @@ body {
     width: 180px;
     padding-top: 80px;
     font-weight: 700;
-    opacity: 0.6;
+    opacity: 0.7;
+
 }
 
 #thousand {
     border: 2px solid red;
     border-radius: 5px;
     background-color: rgb(234, 177, 173);
+}
+
+.input {
+    border: 0;
+}
+
+.margin {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.margin-bottom {
+    margin-bottom: 100px;
+}
+
+.third-part {
+
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.food {
+    background-color: rgb(173, 229, 210, 0.6);
+    border-radius: 5px;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 50px;
+    margin-right: 20px;
+}
+
+.shelter {
+    background-color: rgba(199, 157, 172, 0.6);
+    border-radius: 5px;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 50px;
+    margin-right: 20px;
+}
+
+.education {
+    background-color: rgba(238, 179, 101, 0.6);
+    border-radius: 5px;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 50px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+footer h1 {
+    color: red;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+footer p {
+    color: wheat;
+    font-size: 25px;
 }
